@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nom": "Les crêtes du Moucherotte",
+    "difficulte": "moyen",
+    "duree_h": 4.5,
+    "denivele_m": 620,
+    "region": "Vercors",
+    "balisee": false
+  },
+  {
+    "id": 2,
+    "nom": "Le sentier des cascades",
+    "difficulte": "facile",
+    "duree_h": 2.0,
+    "denivele_m": 180,
+    "region": "Cévennes",
+    "balisee": true
+  },
+  {
+    "id": 3,
+    "nom": "Tour du lac de Monteynard",
+    "difficulte": "facile",
+    "duree_h": 3.0,
+    "denivele_m": 210,
+    "region": "Vosges",
+    "balisee": true
+  },
+  {
+    "id": 4,
+    "nom": "La traversée des Rochers",
+    "difficulte": "difficile",
+    "duree_h": 7.5,
+    "denivele_m": 1240,
+    "region": "Calanques",
+    "balisee": true
+  },
+  {
+    "id": 5,
+    "nom": "Boucle des bergeries",
+    "difficulte": "moyen",
+    "duree_h": 5.0,
+    "denivele_m": 540,
+    "region": "Mont-Dore",
+    "balisee": false
+  },
+  {
+    "id": 6,
+    "nom": "Le pas de l'Aiguille",
+    "difficulte": "difficile",
+    "duree_h": 6.5,
+    "denivele_m": 980,
+    "region": "Écrins",
+    "balisee": true
+  },
+  {
+    "id": 7,
+    "nom": "Sentier du littoral",
+    "difficulte": "facile",
+    "duree_h": 2.5,
+    "denivele_m": 120,
+    "region": "Chartreuse",
+    "balisee": true
+  },
+  {
+    "id": 8,
+    "nom": "Les balcons de la vallée",
+    "difficulte": "moyen",
+    "duree_h": 4.0,
+    "denivele_m": 470,
+    "region": "Luberon",
+    "balisee": true
+  },
+  {
+    "id": 9,
+    "nom": "Crête de la Bastille",
+    "difficulte": "moyen",
+    "duree_h": 3.5,
+    "denivele_m": 610,
+    "region": "Vercors",
+    "balisee": false
+  },
+  {
+    "id": 10,
+    "nom": "Le grand tour des lacs",
+    "difficulte": "difficile",
+    "duree_h": 9.0,
+    "denivele_m": 1450,
+    "region": "Cévennes",
+    "balisee": true
+  },
+  {
+    "id": 11,
+    "nom": "Cabane du berger",
+    "difficulte": "facile",
+    "duree_h": 1.5,
+    "denivele_m": 90,
+    "region": "Vosges",
+    "balisee": true
+  },
+  {
+    "id": 12,
+    "nom": "Les gorges oubliées",
+    "difficulte": "moyen",
+    "duree_h": 5.5,
+    "denivele_m": 700,
+    "region": "Calanques",
+    "balisee": true
+  }
+]
