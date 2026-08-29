@@ -1,0 +1,65 @@
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+  padding: 2rem;
+  background-color: #FAFAF7;
+}
+ 
+/* ---------------------------------------------------------
+   La carte
+   --------------------------------------------------------- */
+.container {
+  background-color: #FFFFFF;
+  border: 1px solid #E4E2DC;
+  border-top: 4px solid var(--accent-color, #3F6644);
+  border-radius: 3px;
+  padding: 1.25rem 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+ 
+.container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+ 
+/* ---------------------------------------------------------
+   La ligne de couleur en haut de carte : une couleur
+   différente à chaque carte, en cycle sur 6 teintes.
+   On utilise nth-child sur le conteneur parent (section)
+   pour cibler chaque carte
+   --------------------------------------------------------- */
+section > .container:nth-child(6n + 1) { --accent-color: #3F6644; } /* vert forêt */
+section > .container:nth-child(6n + 2) { --accent-color: #B5573C; } /* terre cuite */
+section > .container:nth-child(6n + 3) { --accent-color: #2F6B6B; } /* bleu lac */
+section > .container:nth-child(6n + 4) { --accent-color: #C08A2E; } /* ocre */
+section > .container:nth-child(6n + 5) { --accent-color: #45577A; } /* bleu ardoise */
+section > .container:nth-child(6n + 6) { --accent-color: #6B4C6B; } /* prune */
+ 
+
+.container h3 {
+  margin: 0;
+  font-weight: 400;
+}
+ 
+/* Le premier h3 = le nom de la rando */
+.container h3:first-of-type {
+  font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1E1E1B;
+  margin-bottom: 0.5rem;
+}
+ 
+
+.container h3:not(:first-of-type) {
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #55534C;
+  letter-spacing: 0.01em;
+}
